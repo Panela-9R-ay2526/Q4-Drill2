@@ -9,7 +9,7 @@ function checkHeatIndex() {
 
     let status = "";
 
-    // CONDITIONS (based on your table)
+    // CONDITIONS 
     if (heatIndex <= 27) {
         status = "Comfortable / Cool";
     } 
@@ -26,6 +26,6 @@ function checkHeatIndex() {
         status = "Extreme Heat / Danger";
     }
 
-    // OUTPUT (alert like your screenshot)
+    // OUTPUT 
     alert("Heat Index: " + heatIndex.toFixed(1) + "°C\nStatus: " + status);
 }
