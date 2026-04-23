@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(120deg, #0f2027, #203a43, #f7971e);
+    height: 100vh;
+    color: white;
+}
+
+.card {
+    background-color: #1e1e2f;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+}
